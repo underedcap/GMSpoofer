@@ -1,0 +1,14 @@
+name: GMSpoofer
+version: 1.0
+main: ru.drugaddict.GMSpoofer
+api-version: 1.16
+author: drugaddict
+
+commands:
+  gm:
+    description: Fast Change uR gamemode
+    permission: gmplugin.fc
+    permission-message: Нету прав
+    aliases:
+      - fs
+    usage: /gm <1|2|3>
